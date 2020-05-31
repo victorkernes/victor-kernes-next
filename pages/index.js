@@ -3,9 +3,8 @@ import Page from "../components/Page";
 export default () => (
   <Page>
     <section className={"AboutMeSection"}>
-      <h1 className={"AboutMeBlurb"}>
-        I’m a multidisciplinary designer, specializing in mobile product design,
-        web design, and front-end development.
+      <h1 className={"f-headline AboutMeDescription"}>
+        Hi, I’m Victor — Product Designer looking for work.
       </h1>
       <h4 className={"WorkingFromHome"}>
         <a
