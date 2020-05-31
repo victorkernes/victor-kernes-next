@@ -6,7 +6,10 @@ export default () => (
       <h1 className={"f-headline AboutMeDescription"}>
         Hi, I’m Victor — Product Designer looking for work.
       </h1>
-      <h4 className={"WorkingFromHome"}>
+      <h3 className={"f1 AboutMeContext"}>
+        Currently accepting freelance projects. Previously worked at Virta Health.
+      </h3>
+      <h4 className={"f3 CaseStudies"}>
         <a
           className={"CaseStudiesButton"}
           href="https://www.dropbox.com/s/uy86nrrxoy87q6m/Victor%20Kernes%20%E2%80%93%20Portfolio%20%28Password%29.pdf"

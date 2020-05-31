@@ -7,7 +7,6 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  box-sizing: border-box;
 }
 @import url("https://rsms.me/inter/inter.css");
 html {
@@ -39,6 +38,7 @@ a:hover {
 }
 .f-headline {
   font-size: 5rem;
+  line-height: 1.25;
 }
 .f-subheadline {
   font-size: 4rem;
@@ -46,21 +46,30 @@ a:hover {
 }
 .f1 {
   font-size: 3rem;
+  line-height: 1.5;
 }
 .f2 {
   font-size: 2.25rem;
+  line-height: 1.5;
 }
 .f3 {
   font-size: 1.5rem;
+  line-height: 1.5;
 }
 .f4 {
   font-size: 1.25rem;
+  line-height: 1.5;
 }
 .f5 {
   font-size: 1rem;
+  line-height: 1.5;
 }
 .f6 {
   font-size: 0.875rem;
+  line-height: 1.5;
+}
+.bold {
+  font-weight: bold;
 }
 .AboutMeSection {
   animation: fadein 2s;
@@ -74,7 +83,18 @@ a:hover {
   margin: 0 auto;
 }
 .AboutMeDescription {
+  font-weight: 700;
+  padding-bottom: 2.5rem;
+}
+.AboutMeContext {
+  font-weight: 400;
+  padding-bottom: 2.5rem;
+}
+.CaseStudies {
+  font-weight: 400;
   padding-bottom: 5rem;
+  text-align: left;
+  line-height: 1.5;
 }
 .CaseStudiesButton {
   display: block;
@@ -164,13 +184,6 @@ a:hover {
   padding: 1rem 2rem;
   border-radius: 2.5rem;
 }
-.WorkingFromHome {
-  font-size: 3rem;
-  font-weight: 300;
-  padding-bottom: 5rem;
-  text-align: left;
-  line-height: 1.5;
-}
 .Twitter {
   margin-top: 48px;
 }
@@ -238,9 +251,8 @@ a:hover {
     width: 100%;
     padding: 2rem 1rem;
   }
-  .WorkingFromHome {
-    font-size: 1.5rem;
-    padding-bottom: 2rem;
+  .CaseStudies {
+    padding-bottom: 2.5rem;
   }
   .Follow {
     margin-bottom: 2rem;

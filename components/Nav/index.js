@@ -4,8 +4,8 @@ const Nav = () => (
   <nav className={styles.NavContainer}>
     <div className={styles.NavContainerLeft}>
       <ul className={styles.NavLinksLeft}>
-        <li>
-          <a href="/" alt="Home" className={styles.NavLink}>
+        <li className="f4 bold">
+          <a href="/" alt="Home" className={styles.HomeLink}>
             Victor Kernes
           </a>
         </li>
@@ -15,7 +15,7 @@ const Nav = () => (
       <ul className={styles.NavLinksRight}>
         <li>
           <a
-            href="/public/Victor-Kernes-Resume.pdf"
+            href="../../static/Victor-Kernes-Resume.pdf"
             alt="Résumé"
             className={styles.NavLink}
             download

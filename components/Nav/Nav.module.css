@@ -13,9 +13,17 @@
 .NavContainerLeft {
   text-align: left;
 }
-.NavLink {
-  font-size: 1.25rem;
+.HomeLink {
   font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--nav-color);
+}
+.HomeLink:hover {
+  color: var(--nav-hover-color);
+}
+.NavLink {
+  font-weight: 400;
   cursor: pointer;
   text-decoration: none;
   color: var(--nav-color);
