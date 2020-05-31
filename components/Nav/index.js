@@ -25,6 +25,15 @@ const Nav = () => (
         </li>
         <li>
           <a
+            href="https://blog.victorkernes.com"
+            alt="Blog"
+            className={styles.NavLink}
+          >
+            Blog
+          </a>
+        </li>
+        <li>
+          <a
             href="mailto:victorkernes@gmail.com"
             alt="Contact"
             className={styles.NavLink}
