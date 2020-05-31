@@ -1,4 +1,4 @@
-import Page from '../components/Page'
+import Page from "../components/Page";
 
 export default () => (
   <Page>
@@ -11,6 +11,7 @@ export default () => (
         <a
           className={"CaseStudiesButton"}
           href="https://www.dropbox.com/s/uy86nrrxoy87q6m/Victor%20Kernes%20%E2%80%93%20Portfolio%20%28Password%29.pdf"
+          target="_blank"
         >
           Read Case Studies →
         </a>
@@ -29,17 +30,23 @@ export default () => (
     <section className={"FeaturedContainer"}>
       <h2>Featured</h2>
       <p>
-        <a href="https://designdetails.fm/episodes/130517">
+        <a href="https://designdetails.fm/episodes/130517" target="_blank">
           242: Traitor Joe (feat. Victor Kernes) • Design Details
         </a>
       </p>
       <p>
-        <a href="https://medium.com/virta-health/my-experience-joining-a-design-team-in-healthcare-bc07fbfe41a4">
+        <a
+          href="https://medium.com/virta-health/my-experience-joining-a-design-team-in-healthcare-bc07fbfe41a4"
+          target="_blank"
+        >
           My Experience Joining a Design Team in Healthcare • Medium
         </a>
       </p>
       <p>
-        <a href="https://www.figma.com/blog/how-virta-health-uses-figma-to-help-patients-reverse-type-2-diabetes/">
+        <a
+          href="https://www.figma.com/blog/how-virta-health-uses-figma-to-help-patients-reverse-type-2-diabetes/"
+          target="_blank"
+        >
           How Virta Health uses Figma to help patients reverse type 2 diabetes •
           Figma
         </a>

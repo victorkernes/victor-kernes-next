@@ -26,7 +26,12 @@ body {
   color: var(--body-foreground);
   background-color: var(--body-background);
 }
-
+a {
+  color: var(--link-color);
+}
+a:hover {
+  opacity: 0.7;
+}
 .AboutMeSection {
   animation: fadein 2s;
   display: flex;
@@ -74,7 +79,7 @@ body {
   font-weight: 700;
 }
 .ProjectContainer {
-  color: #111;
+  color: #1d1f20;
   background: #fff;
   width: 100%;
   padding: 3rem;
@@ -99,18 +104,15 @@ body {
 }
 .FeaturedContainer h2 {
   font-size: 3.5rem;
-  color: rgba(255, 255, 255, 1);
   padding-bottom: 5rem;
 }
 .FeaturedContainer p {
   font-size: 2rem;
-  color: rgba(255, 255, 255, 1);
   line-height: 1.25;
   padding-bottom: 2.5rem;
 }
 .FeaturedContainer a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 1);
 }
 .VirtaWorkImage {
   max-width: 100%;
@@ -182,7 +184,7 @@ body {
   opacity: 1;
 }
 .ProjectLink {
-  color: #000;
+  color: #1d1f20;
 }
 .ProjectLogo {
   width: 72px;
@@ -236,11 +238,12 @@ body {
 }
 
 :root {
-    --nav-color: #111;
+    --nav-color: #1d1f20;
     --nav-hover-color: rgb(0, 0, 0, 0.7);
-    --body-foreground: #111;
+    --body-foreground: #1d1f20;
     --body-background: #fff;
-    --tweet-me-color: #111;
+    --link-color: #1d1f20;
+    --tweet-me-color: #1d1f20;
     --tweet-me-background: rgba(0, 0, 0, 0.025);
 }
 @media (prefers-color-scheme: dark) {
@@ -248,7 +251,8 @@ body {
     --nav-color: #fff;
     --nav-hover-color: rgb(255, 255, 255, 0.7);
     --body-foreground: #eee;
-    --body-background: #1B2029;
+    --body-background: #1d1f20;
+    --link-color: #fff;
     --tweet-me-color: #fff;
     --tweet-me-background: rgba(255, 255, 255, 0.025);
   }
