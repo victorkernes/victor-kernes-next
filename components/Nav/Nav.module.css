@@ -1,0 +1,56 @@
+.NavContainer {
+  max-width: 1072px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 7.5rem;
+}
+.NavContainerRight {
+  text-align: right;
+}
+.NavContainerLeft {
+  text-align: left;
+}
+.NavLink {
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--nav-color);
+}
+.NavLink:hover {
+  color: var(--nav-hover-color);
+}
+.NavLinksRight {
+  display: inline-flex;
+  text-align: right;
+  list-style: none;
+}
+.NavLinksRight li {
+  padding-right: 3rem;
+}
+.NavLinksRight li:last-of-type {
+  padding-right: 0;
+}
+.NavLinksLeft li {
+  padding-left: 3rem;
+}
+.NavLinksLeft li:first-of-type {
+  padding-left: 0;
+}
+.NavLinksLeft {
+  display: inline-flex;
+  list-style: none;
+}
+@media (max-width: 720px) {
+  .NavContainer {
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .NavLink {
+    font-size: 1rem;
+  }
+}
