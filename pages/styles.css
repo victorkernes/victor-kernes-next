@@ -236,7 +236,9 @@ a:hover {
     opacity: 1;
   }
 }
-
+::selection {
+  background-color: #a5aed5;
+} 
 :root {
     --nav-color: #1d1f20;
     --nav-hover-color: rgb(0, 0, 0, 0.7);
