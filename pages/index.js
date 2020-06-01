@@ -23,16 +23,6 @@ export default () => (
           Read Case Studies →
         </a>
       </h4>
-      <div className={"Follow"}>
-        <a
-          className={"inline"}
-          href="https://twitter.com/messages/compose?recipient_id=2913264487"
-          target="_blank"
-        >
-          <img className={"Twitter"} src="../static/twitter.svg" />
-          <p className={"TwitterText"}>Tweet a short message, if ya like 😏</p>
-        </a>
-      </div>
     </section>
     <Work />
     <section className={"FeaturedContainer"}>

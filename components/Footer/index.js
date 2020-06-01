@@ -86,6 +86,16 @@ const Footer = () => (
           </p>
         </div>
       </div>
+      <div className={"Follow"}>
+        <a
+          className={"inline"}
+          href="https://twitter.com/messages/compose?recipient_id=2913264487"
+          target="_blank"
+        >
+          <img className={"Twitter"} src="../static/twitter.svg" />
+          <p className={"TwitterText"}>Tweet a short message, if ya like 😏</p>
+        </a>
+      </div>
       <p className={styles.Developer}>
         Designed and Developed by Victor Kernes
       </p>

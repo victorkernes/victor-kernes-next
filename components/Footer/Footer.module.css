@@ -29,11 +29,11 @@
   letter-spacing: -0.05rem;
 }
 .Developer {
-  font-size: 1rem;
+  font-size: 1.25rem;
   padding-bottom: 1rem;
 }
 .Copyright {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 @media (max-width: 720px) {
   .FooterContainer {
@@ -54,6 +54,9 @@
     font-weight: 300;
   }
   .Copyright {
+    font-size: 1rem;
+  }
+  .Developer {
     font-size: 1rem;
   }
 }
