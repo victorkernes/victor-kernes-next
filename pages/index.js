@@ -8,7 +8,7 @@ export default () => (
         Hi, I’m Victor — Product Designer based in SF.
       </h1>
       <h3 className={"f1 AboutMeContext"}>
-        Currently accepting freelance projects. Previously worked at{" "}
+        Available for contract or full-time roles. Previously worked at{" "}
         <a href="https://www.virtahealth.com" target="_blank">
           Virta Health
         </a>
