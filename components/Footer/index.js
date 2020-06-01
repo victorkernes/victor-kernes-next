@@ -59,7 +59,8 @@ const Footer = () => (
           </p>
         </div>
       </div>
-      <p className={styles.Copyright}>© Victor Kernes 2020</p>
+      <p className={styles.Developer}>Designed and Developed by Victor Kernes</p>
+      <p className={styles.Copyright}>© 2020 Victor Kernes</p>
     </div>
   </footer>
 );

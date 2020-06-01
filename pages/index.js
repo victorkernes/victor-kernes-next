@@ -4,10 +4,11 @@ export default () => (
   <Page>
     <section className={"AboutMeSection"}>
       <h1 className={"f-headline AboutMeDescription"}>
-        Hi, I’m Victor — Product Designer looking for work.
+        Hi, I’m Victor — Product Designer based in SF.
       </h1>
       <h3 className={"f1 AboutMeContext"}>
-        Currently accepting freelance projects. Previously worked at Virta Health.
+        Currently accepting freelance projects. Previously worked at{" "}
+        <a href="https://www.virtahealth.com" target="_blank">Virta Health</a>.
       </h3>
       <h4 className={"f3 CaseStudies"}>
         <a

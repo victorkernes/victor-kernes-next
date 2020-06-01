@@ -31,6 +31,7 @@ body {
   background-color: var(--body-background);
 }
 a {
+  text-decoration: none;
   color: var(--link-color);
 }
 a:hover {
@@ -84,11 +85,13 @@ a:hover {
 }
 .AboutMeDescription {
   font-weight: 700;
+  padding-top: 5rem;
   padding-bottom: 2.5rem;
 }
 .AboutMeContext {
   font-weight: 400;
   padding-bottom: 2.5rem;
+  color: #72777b;
 }
 .CaseStudies {
   font-weight: 400;

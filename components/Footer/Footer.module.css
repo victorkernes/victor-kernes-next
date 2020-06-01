@@ -32,8 +32,13 @@
   font-style: normal;
   letter-spacing: -0.05rem;
 }
+.Developer {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
 .Copyright {
-  font-size: 1.25rem;
+  font-size: 1rem;
+  color: #72777b;
 }
 @media (max-width: 720px) {
   .FooterContainer {
