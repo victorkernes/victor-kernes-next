@@ -173,6 +173,9 @@ li {
   display: inline-flex;
   align-items: center;
 }
+.inline:hover {
+  opacity: 1;
+}
 .Follow .TwitterText {
   visibility: hidden;
   margin-left: 24px;

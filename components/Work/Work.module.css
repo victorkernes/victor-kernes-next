@@ -25,6 +25,9 @@
   width: 100%;
   height: 100%;
 }
+.ProjectItemContainer:hover {
+  opacity: 1;
+}
 .ProjectsSection {
   max-width: 1072px;
   margin: 0 auto;
