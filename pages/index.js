@@ -9,7 +9,10 @@ export default () => (
       </h1>
       <h3 className={"f1 AboutMeContext"}>
         Currently accepting freelance projects. Previously worked at{" "}
-        <a href="https://www.virtahealth.com" target="_blank">Virta Health</a>.
+        <a href="https://www.virtahealth.com" target="_blank">
+          Virta Health
+        </a>
+        .
       </h3>
       <h4 className={"f3 CaseStudies"}>
         <a
@@ -31,6 +34,7 @@ export default () => (
         </a>
       </div>
     </section>
+    <Work />
     <section className={"FeaturedContainer"}>
       <h2 className={"f1"}>Featured</h2>
       <p className={"f3"}>
@@ -56,6 +60,5 @@ export default () => (
         </a>
       </p>
     </section>
-    <Work />
   </Page>
 );

@@ -7,6 +7,7 @@
   margin: 0 auto;
 }
 .FooterHeader {
+  font-size: 3rem;
   padding-bottom: 2.5rem;
 }
 .LinksContainer {
@@ -33,7 +34,6 @@
 }
 .Copyright {
   font-size: 1rem;
-  color: #72777b;
 }
 @media (max-width: 720px) {
   .FooterContainer {
@@ -43,7 +43,7 @@
     padding-bottom: 2rem;
   }
   .FooterHeader {
-    font-size: 2.125rem;
+    font-size: 2rem;
     padding-bottom: 2rem;
   }
   .LinkText {
