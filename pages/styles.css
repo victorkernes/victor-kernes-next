@@ -98,19 +98,25 @@ li {
   padding-bottom: 2.5rem;
   color: #72777b;
 }
-.CaseStudies {
+.HireMeSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 50%;
+}
+.HireMe {
   font-weight: 400;
   padding-bottom: 5rem;
   text-align: left;
   line-height: 1.5;
 }
-.CaseStudiesButton {
+.HireMeButton {
   display: block;
   color: var(--body-foreground);
   background-color: var(--body-background);
   text-decoration: none;
 }
-.CaseStudiesButton:hover {
+.HireMeButton:hover {
   opacity: 0.8;
 }
 .ArticlesHeader {
@@ -202,7 +208,10 @@ li {
     width: 100%;
     padding: 2rem 1rem;
   }
-  .CaseStudies {
+  .HireMeSection {
+    max-width: 100%;
+  }
+  .HireMe {
     padding-bottom: 2.5rem;
   }
   .Follow {

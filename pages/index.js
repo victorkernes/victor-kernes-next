@@ -14,15 +14,26 @@ export default () => (
         </a>
         .
       </h3>
-      <h4 className={"f3 CaseStudies"}>
-        <a
-          className={"CaseStudiesButton"}
-          href="https://www.dropbox.com/s/uy86nrrxoy87q6m/Victor%20Kernes%20%E2%80%93%20Portfolio%20%28Password%29.pdf"
-          target="_blank"
-        >
-          Read Case Studies →
-        </a>
-      </h4>
+      <div className={"HireMeSection"}>
+        <h4 className={"f3 HireMe"}>
+          <a
+            className={"HireMeButton"}
+            href="https://www.dropbox.com/s/uy86nrrxoy87q6m/Victor%20Kernes%20%E2%80%93%20Portfolio%20%28Password%29.pdf"
+            target="_blank"
+          >
+            Read Case Studies
+          </a>
+        </h4>
+        <h4 className={"f3 HireMe"}>
+          <a
+            className={"HireMeButton"}
+            href="https://calendly.com/victorkernes/30min"
+            target="_blank"
+          >
+            Schedule Meeting
+          </a>
+        </h4>
+      </div>
     </section>
     <Work />
     <section className={"FeaturedContainer"}>
