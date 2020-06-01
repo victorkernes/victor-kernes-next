@@ -1,0 +1,64 @@
+.ProjectList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  position: relative;
+  z-index: 10;
+}
+.ProjectItem {
+  margin-bottom: 75px;
+  border-radius: 6px;
+  overflow: hidden;
+  width: calc(50% - 37.5px);
+  display: inline-block;
+  height: 45vw;
+  max-height: 550px;
+  position: relative;
+}
+.ProjectItemContainer {
+  overflow: hidden;
+  position: absolute;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 100%;
+}
+.ProjectsSection {
+  max-width: 1072px;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+.ProjectHeader {
+  font-size: 3rem;
+  padding-bottom: 5rem;
+  font-weight: 700;
+}
+.ProjectItemInformation {
+  color: #1d1f20;
+  position: relative;
+  z-index: 10;
+  font-size: 1.25rem;
+  padding-bottom: 8px;
+}
+.ProjectItemCategory {
+  color: #1d1f20;
+  position: relative;
+  z-index: 10;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.015rem;
+}
+.ProjectItemDetails {
+  padding: 35px 40px;
+}
+.ProjectImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
