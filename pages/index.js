@@ -1,19 +1,18 @@
 import Page from "../components/Page";
-import Work from "../components/Work"
+import Work from "../components/Work";
 
 export default () => (
   <Page>
     <section className={"AboutMeSection"}>
       <h1 className={"f-headline AboutMeDescription"}>
-        Hi, I’m Victor — Product Designer based in SF.
+        Hi, I’m Victor — Designer based in San Francisco.
       </h1>
       <h3 className={"f1 AboutMeContext"}>
-        Currently working at <a href="https://www.gradescope.com" target="_blank">Gradescope</a>
-        . Previously worked at{" "}
-        <a href="https://www.virtahealth.com" target="_blank">
-          Virta Health
+        Product Designer at{" "}
+        <a href="https://www.gradescope.com" target="_blank">
+          Gradescope
         </a>
-        .
+        . Previously worked at Virta Health.
       </h3>
       <div className={"HireMeSection"}>
         <h4 className={"f3 HireMe"}>
