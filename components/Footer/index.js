@@ -3,7 +3,7 @@ import styles from "./Footer.module.css"
 const Footer = () => (
   <footer className={styles.Footer}>
     <div className={styles.FooterContainer}>
-      <h3 className={styles.FooterHeader}>Say Hello</h3>
+      <h3 className={styles.FooterHeader}>Connect</h3>
       <div className={styles.LinksContainer}>
         <div className={styles.LinksColumn}>
           <p className={styles.LinkText}>
