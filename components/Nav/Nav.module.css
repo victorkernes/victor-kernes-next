@@ -30,7 +30,7 @@
   color: var(--nav-hover-color);
 }
 .NavLink {
-  font-weight: 400;
+  font-weight: 600;
   cursor: pointer;
   text-decoration: none;
   color: var(--nav-color);

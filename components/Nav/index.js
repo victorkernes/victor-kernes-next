@@ -15,13 +15,8 @@ const Nav = () => (
       <div className={styles.NavContainerRight}>
         <ul className={styles.NavLinksRight}>
           <li>
-            <a
-              href="../../static/Victor-Kernes-Resume.pdf"
-              alt="Résumé"
-              className={styles.NavLink}
-              download
-            >
-              Résumé
+            <a href="/#Work" alt="Work" className={styles.NavLink}>
+              Work
             </a>
           </li>
           <li>
@@ -35,11 +30,11 @@ const Nav = () => (
           </li>
           <li>
             <a
-              href="mailto:victorkernes@gmail.com"
-              alt="Contact"
+              href="/about"
+              alt="About"
               className={styles.NavLink}
             >
-              Contact
+             About
             </a>
           </li>
         </ul>

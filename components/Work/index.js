@@ -2,7 +2,7 @@ import styles from "./Work.module.css";
 
 const Work = () => (
   <section className={styles.ProjectsSection}>
-    <h3 className={styles.ProjectHeader}>Work</h3>
+    <h3 className={styles.ProjectHeader} id="Work">Work</h3>
     <ul className={styles.ProjectList}>
       <li className={styles.ProjectItem}>
         <a
