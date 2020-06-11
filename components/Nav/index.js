@@ -20,21 +20,17 @@ const Nav = () => (
             </a>
           </li>
           <li>
-            <a
-              href="https://blog.victorkernes.com"
-              alt="Blog"
-              className={styles.NavLink}
-            >
-              Blog
+            <a href="/about" alt="About" className={styles.NavLink}>
+              About
             </a>
           </li>
           <li>
             <a
-              href="/about"
-              alt="About"
+              href="https://blog.victorkernes.com"
+              alt="Writing"
               className={styles.NavLink}
             >
-             About
+              Writing
             </a>
           </li>
         </ul>
