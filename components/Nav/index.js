@@ -24,11 +24,6 @@ const Nav = () => (
             </a>
           </li>
           <li>
-            <a href="/#Work" alt="Work" className={styles.NavLink}>
-              Work
-            </a>
-          </li>
-          <li>
             <a
               className={styles.NavLink}
               href="https://tinyletter.com/victorkernes"

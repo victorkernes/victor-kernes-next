@@ -247,9 +247,6 @@ p {
     font-size: 2rem;
     padding-bottom: 2rem;
   }
-  .FeaturedContainer p {
-    font-size: 1.5rem;
-  }
 }
 @keyframes fadein {
   from {

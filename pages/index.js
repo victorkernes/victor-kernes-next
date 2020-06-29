@@ -26,7 +26,7 @@ export default () => (
     <Work />
     <section className={"FeaturedContainer"}>
       <h4 className={"Subtitle"}>Learn More</h4>
-      <h1 className={"Title"}>Listen to podcasts and blogs I’m featured on.</h1>
+      <h1 className={"Title"}>Podcasts and blogs I’m featured on.</h1>
       <p className={"LearnMoreLink"}>
         <a href="https://designdetails.fm/episodes/130517" target="_blank">
           242: Traitor Joe (feat. Victor Kernes) • Design Details
