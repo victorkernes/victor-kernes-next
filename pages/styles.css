@@ -26,6 +26,23 @@ select,
 textarea {
   font-family: inherit;
 }
+button {
+  display: inline-block;
+  border: none;
+  padding: 12px 24px;
+  margin: 0;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, 
+              transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
 body {
   color: var(--body-foreground);
   background-color: var(--body-background);
@@ -41,6 +58,18 @@ ul,
 li {
   list-style: none;
   text-decoration: none;
+}
+h1 {
+  font-size: 40px;
+  line-height: 1.25;
+}
+h4 {
+  font-size: 28px;
+  line-height: 1.25;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
 }
 .f-headline {
   font-size: 5rem;
@@ -84,31 +113,29 @@ li {
   max-width: 1072px;
   flex-direction: column;
   align-content: flex-start;
-  padding-top: 120px;
+  padding-top: 180px;
   padding-bottom: 120px;
   margin: 0 auto;
 }
-.AboutMeDescription {
-  font-weight: 700;
-  padding-top: 5rem;
-  padding-bottom: 2.5rem;
+.Welcome {
+  max-width: 440px;
+  margin: 0 auto;
+  text-align: center;
 }
-.AboutMeContext {
+.Subtitle {
+  color: #737d86;
+  padding-bottom: 4px;
+}
+.Title {
+  padding-bottom: 8px;
+}
+.Context {
   font-weight: 400;
-  padding-bottom: 2.5rem;
   color: #72777b;
+  padding-bottom: 32px;
 }
-.HireMeSection {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 50%;
-}
-.HireMe {
-  font-weight: 400;
-  padding-bottom: 5rem;
-  text-align: left;
-  line-height: 1.5;
+.Contact {
+  font-size: 16px;
 }
 .HireMeButton {
   display: block;
@@ -197,22 +224,16 @@ li {
 }
 @media (max-width: 720px) {
   .AboutMeDescription {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding-bottom: 1rem;
   }
-  .AboutMeContext {
-    font-size: 2rem;
+  .Context {
+    font-size: 1rem;
     padding-bottom: 2rem;
   }
   .AboutMeSection {
     width: 100%;
-    padding: 2rem 1rem;
-  }
-  .HireMeSection {
-    max-width: 100%;
-  }
-  .HireMe {
-    padding-bottom: 2.5rem;
+    padding: 8rem 1rem;
   }
   .Follow {
     margin-bottom: 2rem;
@@ -246,19 +267,19 @@ li {
   --nav-color: #1d1f20;
   --nav-hover-color: rgb(0, 0, 0, 0.7);
   --nav-background: rgba(29, 31, 32, 0);
-  --body-foreground: #1d1f20;
+  --body-foreground: #0f0f0f;
   --body-background: #fff;
-  --link-color: #1d1f20;
-  --tweet-me-color: #1d1f20;
+  --link-color: #0f0f0f;
+  --tweet-me-color: #0f0f0f;
   --tweet-me-background: rgba(0, 0, 0, 0.025);
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --nav-color: #fff;
     --nav-hover-color: rgb(255, 255, 255, 0.7);
-    --nav-background: rgba(29, 31, 32, 0.8);
-    --body-foreground: #eee;
-    --body-background: #1d1f20;
+    --nav-background: rgba(15, 15, 15, 0.8);
+    --body-foreground: #fff;
+    --body-background: #0f0f0f;
     --link-color: #fff;
     --tweet-me-color: #fff;
     --tweet-me-background: rgba(255, 255, 255, 0.025);

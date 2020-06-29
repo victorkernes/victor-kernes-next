@@ -4,35 +4,23 @@ import Work from "../components/Work";
 export default () => (
   <Page>
     <section className={"AboutMeSection"}>
-      <h1 className={"f-headline AboutMeDescription"}>
-        Hi, I’m Victor — Designer based in San Francisco.
-      </h1>
-      <h3 className={"f1 AboutMeContext"}>
-        Product Designer at{" "}
-        <a href="https://www.gradescope.com" target="_blank">
-          Gradescope
+      <div className={"Welcome"}>
+        <h4 className={"Subtitle"}>Welcome</h4>
+        <h1 className={"Title"}>It’s nice to meet you.</h1>
+        <p className={"Context"}>
+          My name is Victor Kernes and I’m a{" "}
+          <a href="https://www.gradescope.com" target="_blank">
+            Product Designer
+          </a>
+          . Take a look around and let me know if you need anything.
+        </p>
+        <a
+          className={"HireMeButton"}
+          href="https://calendly.com/victorkernes/30min"
+          target="_blank"
+        >
+          <button className={"Contact"}>Get in touch</button>
         </a>
-        . Previously worked at Virta Health.
-      </h3>
-      <div className={"HireMeSection"}>
-        <h4 className={"f3 HireMe"}>
-          <a
-            className={"HireMeButton"}
-            href="https://www.dropbox.com/s/uy86nrrxoy87q6m/Victor%20Kernes%20%E2%80%93%20Portfolio%20%28Password%29.pdf"
-            target="_blank"
-          >
-            Read Case Studies
-          </a>
-        </h4>
-        <h4 className={"f3 HireMe"}>
-          <a
-            className={"HireMeButton"}
-            href="https://calendly.com/victorkernes/30min"
-            target="_blank"
-          >
-            Schedule Meeting
-          </a>
-        </h4>
       </div>
     </section>
     <Work />
