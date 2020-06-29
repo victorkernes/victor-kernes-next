@@ -25,13 +25,14 @@ export default () => (
     </section>
     <Work />
     <section className={"FeaturedContainer"}>
-      <h2 className={"f1"}>Featured</h2>
-      <p className={"f3"}>
+      <h4 className={"Subtitle"}>Learn More</h4>
+      <h1 className={"Title"}>Listen to podcasts and blogs I’m featured on.</h1>
+      <p className={"LearnMoreLink"}>
         <a href="https://designdetails.fm/episodes/130517" target="_blank">
           242: Traitor Joe (feat. Victor Kernes) • Design Details
         </a>
       </p>
-      <p className={"f3"}>
+      <p className={"LearnMoreLink"}>
         <a
           href="https://medium.com/virta-health/my-experience-joining-a-design-team-in-healthcare-bc07fbfe41a4"
           target="_blank"
@@ -39,7 +40,7 @@ export default () => (
           My Experience Joining a Design Team in Healthcare • Medium
         </a>
       </p>
-      <p className={"f3"}>
+      <p className={"LearnMoreLink"}>
         <a
           href="https://www.figma.com/blog/how-virta-health-uses-figma-to-help-patients-reverse-type-2-diabetes/"
           target="_blank"

@@ -132,10 +132,13 @@ p {
 .Context {
   font-weight: 400;
   color: #72777b;
-  padding-bottom: 32px;
+  padding-bottom: 16px;
 }
 .Contact {
   font-size: 16px;
+}
+.LearnMoreLink {
+  padding-bottom: 16px; 
 }
 .HireMeButton {
   display: block;
@@ -162,16 +165,12 @@ p {
   border-radius: 8px;
 }
 .FeaturedContainer {
-  max-width: 1072px;
+  max-width: 920px;
   margin: 0 auto;
   padding-bottom: 5rem;
 }
-.FeaturedContainer h2 {
-  font-weight: 700;
-  padding-bottom: 2.5rem;
-}
-.FeaturedContainer p {
-  padding-bottom: 2.5rem;
+.FeaturedContainer h1 {
+  padding-bottom: 32px;
 }
 .FeaturedContainer a {
   text-decoration: none;

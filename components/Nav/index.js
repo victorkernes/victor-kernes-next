@@ -29,8 +29,15 @@ const Nav = () => (
             </a>
           </li>
           <li>
-            |
+            <a
+              className={styles.NavLink}
+              href="https://tinyletter.com/victorkernes"
+              target="_blank"
+            >
+              Newsletter
+            </a>
           </li>
+          <li>|</li>
           <li>
             <a
               href="mailto:victorkernes@gmail.com"
