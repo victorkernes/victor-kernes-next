@@ -5,9 +5,9 @@ const Nav = () => (
     <div className={styles.NavContainer}>
       <div className={styles.NavContainerLeft}>
         <ul className={styles.NavLinksLeft}>
-          <li className="f4 bold">
+          <li>
             <a href="/" alt="Home" className={styles.HomeLink}>
-              Victor Kernes
+              <img src="../static/victor-kernes.svg" alt="logo" />
             </a>
           </li>
         </ul>
@@ -15,22 +15,30 @@ const Nav = () => (
       <div className={styles.NavContainerRight}>
         <ul className={styles.NavLinksRight}>
           <li>
+            <a
+              href="https://blog.victorkernes.com"
+              alt="Blog"
+              className={styles.NavLink}
+            >
+              Blog
+            </a>
+          </li>
+          <li>
             <a href="/#Work" alt="Work" className={styles.NavLink}>
               Work
             </a>
           </li>
           <li>
-            <a href="/about" alt="About" className={styles.NavLink}>
-              About
-            </a>
+            |
           </li>
           <li>
             <a
-              href="https://blog.victorkernes.com"
-              alt="Writing"
+              href="mailto:victorkernes@gmail.com"
+              alt="Get in touch"
+              target="_blank"
               className={styles.NavLink}
             >
-              Writing
+              <button className={styles.GetInTouch}>Get in touch</button>
             </a>
           </li>
         </ul>

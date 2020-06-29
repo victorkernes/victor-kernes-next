@@ -6,7 +6,7 @@
   z-index: 20;
 }
 .NavContainer {
-  max-width: 1072px;
+  max-width: 920px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -21,16 +21,15 @@
   text-align: left;
 }
 .HomeLink {
-  font-weight: 600;
   cursor: pointer;
-  text-decoration: none;
-  color: var(--nav-color);
+  fill: var(--nav-color);
 }
 .HomeLink:hover {
-  color: var(--nav-hover-color);
+  fill: var(--nav-hover-color);
 }
 .NavLink {
   font-weight: 600;
+  font-size: 14px;
   cursor: pointer;
   text-decoration: none;
   color: var(--nav-color);
@@ -38,25 +37,45 @@
 .NavLink:hover {
   color: var(--nav-hover-color);
 }
+.GetInTouch {
+  display: inline-block;
+  border: none;
+  padding: 12px 24px;
+  margin: 0;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, 
+              transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
 .NavLinksRight {
   display: inline-flex;
+  align-items: center;
   text-align: right;
   list-style: none;
 }
 .NavLinksRight li {
-  padding-right: 3rem;
+  padding-right: 2.5rem;
 }
 .NavLinksRight li:last-of-type {
   padding-right: 0;
 }
 .NavLinksLeft li {
-  padding-left: 3rem;
+  padding-left: 2.5rem;
 }
 .NavLinksLeft li:first-of-type {
   padding-left: 0;
 }
 .NavLinksLeft {
   display: inline-flex;
+  align-items: center;
   list-style: none;
 }
 @media (max-width: 720px) {
@@ -66,9 +85,9 @@
     padding-left: 1rem;
   }
   .HomeLink {
-    font-size: 1rem;
+    font-size: 14px;
   }
   .NavLink {
-    font-size: 1rem;
+    font-size: 14px;
   }
 }
