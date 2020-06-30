@@ -206,6 +206,27 @@ p {
 .ArticleTitle {
   padding-bottom: 8px;
 }
+.SubscribeForm {
+  display: flex;
+  margin-top: 40px;
+}
+.SubscribeFormContainer {
+  display: flex;
+  margin: 0 auto;
+}
+.SubscribeInput {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 16px;
+  font-size: 16px;
+}
+.SubscribeButton {
+  font-size: 16px;
+  padding: 16px;
+  background: #1384ff;
+}
 .FeaturedContainer h1 {
   padding-bottom: 32px;
 }
@@ -288,6 +309,17 @@ p {
     flex-direction: column;
   }
   .Article {
+    width: 100%;
+  }
+  .SubscribeFormContainer {
+    flex-direction: column;
+  }
+  .SubscribeInput {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  .SubscribeButton {
     width: 100%;
   }
 }

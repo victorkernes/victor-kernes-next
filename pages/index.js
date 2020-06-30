@@ -65,6 +65,33 @@ export default () => (
             </li>
           </a>
         </ul>
+        <form
+          className={"SubscribeForm"}
+          action="https://tinyletter.com/victorkernes"
+          method="post"
+          target="popupwindow"
+          onsubmit="window.open('https://tinyletter.com/victorkernes', 'popupwindow');return true"
+        >
+          <div className={"SubscribeFormContainer"}>
+            <p>
+              <input
+                className={"SubscribeInput"}
+                type="text"
+                placeholder="Your email"
+                name="email"
+                id="tlemail"
+              />
+            </p>
+            <input type="hidden" value="1" name="embed" />
+            <button
+              className={"SubscribeButton"}
+              type="submit"
+              value="Subscribe"
+            >
+              Subscribe
+            </button>
+          </div>
+        </form>
       </div>
     </section>
     <section className={"FeaturedContainer"}>
