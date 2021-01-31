@@ -7,4 +7,6 @@ If you'd like more information, feel free to reach out at victokernes@gmail.com.
 
 `yarn dev` to start development server.
 
+`now` to push to Vercel server.
+
 Copyright © 2014-2021 Victor Kernes
