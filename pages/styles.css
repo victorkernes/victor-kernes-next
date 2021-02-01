@@ -32,8 +32,8 @@ button {
   padding: 12px 24px;
   margin: 0;
   text-decoration: none;
-  background: rgba(255, 255, 255, 0.05);
-  color: #fff;
+  background: var(--button-background);
+  color: var(--nav-color);
   font-weight: 600;
   border-radius: 8px;
   cursor: pointer;
@@ -171,7 +171,7 @@ p {
   padding-bottom: 120px;
 }
 .ArticleSection {
-  background: #1f2226;
+  background: var(--article-section-background);
   animation: fadein 2s;
   display: flex;
   width: 100%;
@@ -190,7 +190,7 @@ p {
   flex-wrap: wrap;
 }
 .Article {
-  background: #17191c;
+  background: var(--article-background);
   border-radius: 8px;
   padding: 16px 24px;
   margin: 0.5rem;
@@ -338,8 +338,12 @@ p {
   --nav-color: #1d1f20;
   --nav-hover-color: rgb(0, 0, 0, 0.7);
   --nav-background: rgba(29, 31, 32, 0);
+  --button-background:rgba(241, 245, 251, 0.5);
+  --button-hover-background: rgba(241, 245, 251, 1);
   --body-foreground: #0f0f0f;
   --body-background: #fff;
+  --article-background: #fff;
+  --article-section-background: #f1f5fb;
   --link-color: #0f0f0f;
   --tweet-me-color: #0f0f0f;
   --tweet-me-background: rgba(0, 0, 0, 0.025);
@@ -349,8 +353,12 @@ p {
     --nav-color: #fff;
     --nav-hover-color: rgb(255, 255, 255, 0.7);
     --nav-background: rgba(15, 15, 15, 0.8);
+    --button-background: rgba(255, 255, 255, 0.05);
+    --button-hover-background: rgba(255, 255, 255, 0.5);
     --body-foreground: #fff;
     --body-background: #0f0f0f;
+    --article-background: #17191c;
+    --article-section-background: #1f2226;
     --link-color: #fff;
     --tweet-me-color: #fff;
     --tweet-me-background: rgba(255, 255, 255, 0.025);

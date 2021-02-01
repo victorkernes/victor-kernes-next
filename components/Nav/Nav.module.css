@@ -27,6 +27,10 @@
 .HomeLink:hover {
   fill: var(--nav-hover-color);
 }
+.HomeLinkFill svg {
+  color: var(--nav-color);
+  fill: currentColor;
+}
 .NavLink {
   font-weight: 600;
   font-size: 14px;

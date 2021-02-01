@@ -70,7 +70,7 @@ export default () => (
           action="https://tinyletter.com/victorkernes"
           method="post"
           target="popupwindow"
-          onsubmit="window.open('https://tinyletter.com/victorkernes', 'popupwindow');return true"
+          onSubmit="window.open('https://tinyletter.com/victorkernes', 'popupwindow');return true"
         >
           <div className={"SubscribeFormContainer"}>
             <p>
