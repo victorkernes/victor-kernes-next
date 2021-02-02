@@ -14,7 +14,7 @@ const Work = () => (
             <p className={styles.ProjectItemCategory}>App Icon</p>
             <img
               className={styles.ProjectImage}
-              src="../static/remote-app-icon.png"
+              src="../static/remote-app-icon.jpg"
             />
           </div>
         </a>
@@ -30,7 +30,7 @@ const Work = () => (
             <p className={styles.ProjectItemCategory}>App Icon</p>
             <img
               className={styles.ProjectImage}
-              src="../static/remote-app-icon-update.png"
+              src="../static/remote-app-icon-update.jpg"
             />
           </div>
         </a>
