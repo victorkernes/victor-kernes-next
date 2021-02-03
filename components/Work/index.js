@@ -2,6 +2,9 @@ import styles from "./Work.module.css";
 
 const Work = () => (
   <section className={styles.ProjectsSection}>
+    <div className={"Container"}>
+      <h4 className={"Subtitle"}>Projects</h4>
+    </div>
     <ul className={styles.ProjectList}>
       <li className={styles.ProjectItem}>
         <a

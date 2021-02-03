@@ -6,28 +6,28 @@ export default () => (
     <section className={"AboutMeSection"}>
       <div className={"Welcome"}>
         <h4 className={"Subtitle"}>Welcome</h4>
-        <h1 className={"Title"}>It’s nice to meet you.</h1>
+        <h1 className={"Title"}>Hello, I’m Victor</h1>
         <p className={"Context"}>
-          My name is Victor Kernes and I’m a{" "}
+          I’m a Product Designer at{" "}
           <a href="https://www.gradescope.com" target="_blank">
-            Product Designer
+            Gradescope
           </a>
-          . Take a look around and let me know if you need anything.
+          {""}, living in San Francisco. Take a look around and let me know if you need anything.
         </p>
         <a
           className={"HireMeButton"}
-          href="https://calendly.com/victorkernes/30min"
+          href="https://twitter.com/victorkernes"
           target="_blank"
         >
-          <button className={"Contact"}>Get in touch</button>
+          <button className={"Contact"}>Follow me on Twitter</button>
         </a>
       </div>
     </section>
     <Work />
     <section className={"ArticleSection"}>
       <div className={"Welcome"}>
-        <h4 className={"Subtitle"}>Read</h4>
-        <h1 className={"Title"}>See what’s going on inside my brain.</h1>
+        <h4 className={"Subtitle"}>Posts</h4>
+        <h1 className={"Title"}>See what I’m writing about</h1>
       </div>
       <div className={"Articles"}>
         <ul className={"ArticlesContainer"}>
@@ -96,7 +96,7 @@ export default () => (
     </section>
     <section className={"FeaturedContainer"}>
       <h4 className={"Subtitle"}>Learn More</h4>
-      <h1 className={"Title"}>Podcasts and blogs I’m featured on.</h1>
+      <h1 className={"Title"}>Podcasts and blogs I’m featured on</h1>
       <p className={"LearnMoreLink"}>
         <a href="https://designdetails.fm/episodes/130517" target="_blank">
           242: Traitor Joe (feat. Victor Kernes) • Design Details
