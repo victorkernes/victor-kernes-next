@@ -7,6 +7,16 @@
   position: relative;
   z-index: 10;
 }
+.ProjectItemFullWidth {
+  margin-bottom: 75px;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 100%;
+  display: inline-block;
+  height: 45vw;
+  max-height: 550px;
+  position: relative;
+}
 .ProjectItem {
   margin-bottom: 75px;
   border-radius: 6px;
