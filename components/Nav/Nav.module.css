@@ -33,7 +33,7 @@
 }
 .NavLink {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 1rem;
   cursor: pointer;
   text-decoration: none;
   color: var(--nav-color);
@@ -42,7 +42,7 @@
   color: var(--nav-hover-color);
 }
 .GetInTouch {
- font-size: 14px;
+ font-size: 1rem;
 }
 .NavLinksRight {
   display: inline-flex;
@@ -56,16 +56,16 @@
 .NavLinksRight li:last-of-type {
   padding-right: 0;
 }
+.NavLinksLeft {
+  display: inline-flex;
+  align-items: center;
+  list-style: none;
+}
 .NavLinksLeft li {
   padding-left: 2.5rem;
 }
 .NavLinksLeft li:first-of-type {
   padding-left: 0;
-}
-.NavLinksLeft {
-  display: inline-flex;
-  align-items: center;
-  list-style: none;
 }
 @media (max-width: 720px) {
   .NavContainer {
@@ -74,9 +74,15 @@
     padding-left: 1rem;
   }
   .HomeLink {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .NavLink {
-    font-size: 14px;
+    font-size: 0.875rem;
+  }
+  .NavLinksRight li {
+    padding-right: 1.25rem;
+  }
+  .GetInTouch {
+    font-size: 0.875rem;
   }
 }

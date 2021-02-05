@@ -34,6 +34,11 @@ const Nav = () => (
             </a>
           </li>
           <li>
+            <a className={styles.NavLink} href="/about">
+              About
+            </a>
+          </li>
+          <li>
             <a
               className={styles.NavLink}
               href="https://volume.substack.com"
@@ -50,7 +55,7 @@ const Nav = () => (
               target="_blank"
               className={styles.NavLink}
             >
-              <button className={styles.GetInTouch}>Send an email</button>
+              <button className={styles.GetInTouch}>Email</button>
             </a>
           </li>
         </ul>
