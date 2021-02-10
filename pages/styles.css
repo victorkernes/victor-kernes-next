@@ -115,7 +115,7 @@ p {
   animation: fadein 2s;
   display: flex;
   width: 100%;
-  max-width: 1072px;
+  max-width: 600px;
   flex-direction: column;
   align-content: flex-start;
   padding-top: 180px;
