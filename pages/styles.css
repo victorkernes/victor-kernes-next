@@ -283,6 +283,10 @@ p {
   visibility: visible;
   opacity: 1;
 }
+.MoreBlogPosts {
+  text-align: center;
+  margin: 1rem;
+}
 @media (max-width: 720px) {
   .Title {
     font-size: 1.75rem;
@@ -343,6 +347,9 @@ p {
     width: 100%;
   }
   .LearnMoreLink {
+    font-size: 1rem;
+  }
+  .MoreBlogPosts {
     font-size: 1rem;
   }
 }

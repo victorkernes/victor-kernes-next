@@ -12,7 +12,8 @@ export default () => (
           <a href="https://www.gradescope.com" target="_blank">
             Gradescope
           </a>
-          {""}, living in San Francisco. Take a look around and let me know if you need anything.
+          {""}, living in San Francisco. Take a look around and let me know if
+          you need anything.
         </p>
         <a
           className={"HireMeButton"}
@@ -65,6 +66,9 @@ export default () => (
             </li>
           </a>
         </ul>
+        <p className={"MoreBlogPosts"}>
+          <a href="https://blog.victorkernes.com" alt="See all blog posts">See all blog posts →</a>
+        </p>
         <form
           className={"SubscribeForm"}
           action="https://tinyletter.com/victorkernes"
