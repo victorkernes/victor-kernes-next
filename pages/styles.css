@@ -141,9 +141,15 @@ p {
 .Contact {
   font-size: 16px;
 }
-.LearnMoreLink {
-  padding-bottom: 16px; 
+.LearnMore {
+  padding-bottom: 16px;
 }
+/* .LearnMoreLink {
+  background-image: linear-gradient(gray, gray);
+  background-size: 100% 1px;
+  background-position: left 1.05em;
+  background-repeat: no-repeat;
+} */
 .HireMeButton {
   display: block;
   color: var(--body-foreground);
@@ -346,7 +352,7 @@ p {
   .SubscribeButton {
     width: 100%;
   }
-  .LearnMoreLink {
+  .LearnMore {
     font-size: 1rem;
   }
   .MoreBlogPosts {
