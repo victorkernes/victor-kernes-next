@@ -15,13 +15,14 @@ export default () => (
           {""}, living in San Francisco. Take a look around and let me know if
           you need anything.
         </p>
-        <a
-          className={"HireMeButton"}
-          href="https://twitter.com/victorkernes"
-          target="_blank"
-        >
-          <button className={"Contact"}>Follow me on Twitter</button>
-        </a>
+        <div className={"ContactButtons"}>
+          <a className={"LearnMore"} href="/about" alt="Learn More">
+            <button className={"LearnMoreButton"}>Learn more</button>
+          </a>
+          <a href="https://twitter.com/victorkernes" target="_blank">
+            <button>Follow me on Twitter</button>
+          </a>
+        </div>
       </div>
     </section>
     <Work />
@@ -67,9 +68,11 @@ export default () => (
           </a>
         </ul>
         <p className={"MoreBlogPosts"}>
-          <a href="https://blog.victorkernes.com" alt="See all blog posts">See all blog posts →</a>
+          <a href="https://blog.victorkernes.com" alt="See all blog posts">
+            See all blog posts →
+          </a>
         </p>
-        <form
+        {/* <form
           className={"SubscribeForm"}
           action="https://tinyletter.com/victorkernes"
           method="post"
@@ -95,19 +98,24 @@ export default () => (
               Subscribe
             </button>
           </div>
-        </form>
+        </form> */}
       </div>
     </section>
     <section className={"FeaturedContainer"}>
       <h4 className={"Subtitle"}>Learn More</h4>
       <h1 className={"Title"}>Podcasts and blogs I’m featured on</h1>
       <p className={"LearnMore"}>
-        <a className={"LearnMoreLink"} href="https://designdetails.fm/episodes/130517" target="_blank">
+        <a
+          className={"LearnMoreLink"}
+          href="https://designdetails.fm/episodes/130517"
+          target="_blank"
+        >
           242: Traitor Joe (feat. Victor Kernes) • Design Details
         </a>
       </p>
       <p className={"LearnMore"}>
-        <a className={"LearnMoreLink"}
+        <a
+          className={"LearnMoreLink"}
           href="https://medium.com/virta-health/my-experience-joining-a-design-team-in-healthcare-bc07fbfe41a4"
           target="_blank"
         >
@@ -115,7 +123,8 @@ export default () => (
         </a>
       </p>
       <p className={"LearnMore"}>
-        <a className={"LearnMoreLink"}
+        <a
+          className={"LearnMoreLink"}
           href="https://www.figma.com/blog/how-virta-health-uses-figma-to-help-patients-reverse-type-2-diabetes/"
           target="_blank"
         >

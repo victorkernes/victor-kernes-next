@@ -35,7 +35,8 @@ button {
   background: var(--button-background);
   color: var(--nav-color);
   font-weight: 600;
-  border-radius: 8px;
+  font-size: 1rem;
+  border-radius: 40px;
   cursor: pointer;
   text-align: center;
   transition: background 250ms ease-in-out, 
@@ -138,9 +139,6 @@ p {
   color: #72777b;
   padding-bottom: 16px;
 }
-.Contact {
-  font-size: 16px;
-}
 .LearnMore {
   padding-bottom: 16px;
 }
@@ -150,13 +148,30 @@ p {
   background-position: left 1.05em;
   background-repeat: no-repeat;
 } */
+.ContactButtons {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
 .HireMeButton {
   display: block;
-  color: var(--body-foreground);
-  background-color: var(--body-background);
   text-decoration: none;
 }
 .HireMeButton:hover {
+  opacity: 0.8;
+}
+.LearnMore {
+  padding: 0 1rem 0 0;
+}
+.LearnMoreButton {
+  display: block;
+  color: #fff;
+  background: #0A84FF;
+  text-decoration: none;
+}
+.LearnMoreButton:hover {
   opacity: 0.8;
 }
 .ArticlesHeader {
