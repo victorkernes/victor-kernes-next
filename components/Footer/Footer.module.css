@@ -18,18 +18,18 @@
   display: flex;
 }
 .LinksList li {
-  font-size: 14px;
+  font-size: 1rem;
   padding-right: 40px;
 }
 .LinksList li a {
-  color: #737d86;
+  color: var(--nav-color);
 }
 .LinksList li:last-of-type {
   padding-right: 0;
 }
 .Copyright {
-  font-size: 14px;
-  color: #737d86;
+  font-size: 1rem;
+  color: var(--nav-color);
 }
 @media (max-width: 720px) {
   .FooterContainer {
