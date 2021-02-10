@@ -317,6 +317,7 @@ p {
   }
   .Article {
     width: 100%;
+    margin: 0.5rem 0;
   }
   .SubscribeFormContainer {
     flex-direction: column;

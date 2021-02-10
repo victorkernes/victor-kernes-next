@@ -24,14 +24,6 @@ const Footer = () => (
             </a>
           </li>
           <li>
-            <a
-              href="https://www.youtube.com/channel/UCPKrAd94VZnWwv5mDnS1H9A"
-              target="_blank"
-            >
-              YouTube
-            </a>
-          </li>
-          <li>
             <a href="https://instagram.com/victorkernes" target="_blank">
               Instagram
             </a>
