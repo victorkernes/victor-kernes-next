@@ -68,7 +68,7 @@ h4 {
   line-height: 1.25;
 }
 p {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.6;
   letter-spacing: -0.1px;
   text-rendering: optimizeLegibility;
@@ -284,6 +284,12 @@ p {
   opacity: 1;
 }
 @media (max-width: 720px) {
+  .Title {
+    font-size: 1.75rem;
+  }
+  .Subtitle {
+    font-size: 1.25rem;
+  }
   .AboutMeDescription {
     font-size: 2.5rem;
     padding-bottom: 1rem;
@@ -298,6 +304,12 @@ p {
   .AboutMeSection {
     width: 100%;
     padding: 8rem 1rem;
+  }
+  .ArticleTitle {
+    font-size: 1.25rem;
+  }
+  .ArticleContainer p {
+    font-size: 1rem;
   }
   .Follow {
     margin-bottom: 2rem;
@@ -329,6 +341,9 @@ p {
   }
   .SubscribeButton {
     width: 100%;
+  }
+  .LearnMoreLink {
+    font-size: 1rem;
   }
 }
 @keyframes fadein {
