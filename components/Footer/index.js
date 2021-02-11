@@ -23,11 +23,6 @@ const Footer = () => (
               GitHub
             </a>
           </li>
-          <li>
-            <a href="https://instagram.com/victorkernes" target="_blank">
-              Instagram
-            </a>
-          </li>
         </ul>
       </div>
     </div>

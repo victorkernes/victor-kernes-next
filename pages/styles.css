@@ -373,6 +373,12 @@ p {
   .MoreBlogPosts {
     font-size: 1rem;
   }
+  .ContactButtons {
+    flex-wrap: wrap;
+  }
+  .LearnMore {
+    padding: 0 0 1rem 0;
+  }
 }
 @keyframes fadein {
   from {
