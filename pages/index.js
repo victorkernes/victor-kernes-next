@@ -28,7 +28,7 @@ export default () => (
     <Work />
     <section className={"ArticleSection"}>
       <div className={"Welcome"}>
-        <h4 className={"Subtitle"}>Posts</h4>
+        <h4 className={"Subtitle"}>Blog</h4>
         <h1 className={"Title"}>See what I’m writing about</h1>
       </div>
       <div className={"Articles"}>
