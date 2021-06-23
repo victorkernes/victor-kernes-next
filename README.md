@@ -3,7 +3,7 @@
 If you'd like more information, feel free to reach out at victokernes@gmail.com.
 
 
-`yarn` to install dependicies.
+`yarn` to install dependencies.
 
 `yarn dev` to start development server.
 
