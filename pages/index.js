@@ -9,8 +9,8 @@ export default () => (
         <h1 className={"Title"}>Hello, I’m Victor</h1>
         <p className={"Context"}>
           I’m a Product Designer at{" "}
-          <a href="https://www.gradescope.com" target="_blank">
-            Gradescope
+          <a href="https://www.hodinkee.com" target="_blank">
+            HODINKEE
           </a>
           {""}, living in San Francisco. Take a look around and let me know if
           you need anything.
