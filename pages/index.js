@@ -26,54 +26,6 @@ export default () => (
       </div>
     </section>
     <Work />
-    <section className={"ArticleSection"}>
-      <div className={"Welcome"}>
-        <h4 className={"Subtitle"}>Blog</h4>
-        <h1 className={"Title"}>See what I’m writing about</h1>
-      </div>
-      <div className={"Articles"}>
-        <ul className={"ArticlesContainer"}>
-          <a
-            className={"Article"}
-            href="https://blog.victorkernes.com/my-first-day-at-gradescope"
-            target="_blank"
-          >
-            <li className={"ArticleContainer"}>
-              <span className={"ArticleCategory"}>Design</span>
-              <h2 className={"ArticleTitle"}>My First Day at Gradescope</h2>
-              <p>Jun 24, 2020</p>
-            </li>
-          </a>
-          <a
-            className={"Article"}
-            href="https://blog.victorkernes.com/wishlist-for-apple-wwdc-2020"
-            target="_blank"
-          >
-            <li className={"ArticleContainer"}>
-              <span className={"ArticleCategory"}>Software</span>
-              <h2 className={"ArticleTitle"}>Wishlist for Apple WWDC 2020</h2>
-              <p>Jun 20, 2020</p>
-            </li>
-          </a>
-          <a
-            className={"Article"}
-            href="https://blog.victorkernes.com/the-job-hunt-is-over"
-            target="_blank"
-          >
-            <li className={"ArticleContainer"}>
-              <span className={"ArticleCategory"}>Design</span>
-              <h2 className={"ArticleTitle"}>The Job Hunt is Over</h2>
-              <p>Jun 3, 2020</p>
-            </li>
-          </a>
-        </ul>
-        <p className={"MoreBlogPosts"}>
-          <a href="https://blog.victorkernes.com" alt="See all blog posts">
-            See all blog posts →
-          </a>
-        </p>
-      </div>
-    </section>
     <section className={"FeaturedContainer"}>
       <h4 className={"Subtitle"}>Learn More</h4>
       <h1 className={"Title"}>Podcasts and blogs I’m featured on</h1>
