@@ -10,8 +10,8 @@ export default () => (
           Victor Kernes
         </a>{" "}
         and I am a Product Designer in San Francisco working at{" "}
-        <a href="https://www.gradescope.com" target="_blank">
-          Gradescope
+        <a href="https://www.hodinkee.com" target="_blank">
+          Hodinkee
         </a>
         .
       </p>
