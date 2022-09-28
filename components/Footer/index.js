@@ -4,7 +4,7 @@ const Footer = () => (
   <footer className={styles.Footer}>
     <div className={styles.FooterContainer}>
       <div>
-        <p className={styles.Copyright}>© 2021 Victor Kernes</p>
+        <p className={styles.Copyright}>© 2022 Victor Kernes</p>
       </div>
       <div className={styles.LinksContainer}>
         <ul className={styles.LinksList}>
