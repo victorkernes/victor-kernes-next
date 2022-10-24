@@ -31,7 +31,7 @@ export default function SEO() {
           rel="manifest"
           href="../../static/favicon/site.webmanifest"
         ></link>
-        <title>Victor Kernes – Product Designer</title>
+        <title>Victor Kernes</title>
       </Head>
     </React.Fragment>
   );

@@ -1,74 +1,59 @@
-.Container {
-  max-width: 560px;
-  padding-top: 160px;
-  margin: 0 auto;
-}
-.About {
-  padding-bottom: 80px;
-}
-.AboutTitle {
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 24px;
-}
-.AboutJob {
-  font-size: 14px;
+.PageTitle {
+  font-size: 12px;
   font-weight: 400;
-  line-height: 20px;
-}
-.AboutTitleContainer {
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
   padding-bottom: 80px;
 }
 .AboutParagraph {
   padding-bottom: 1rem;
 }
-.ContactRow {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
+.ArticleTitle {
+  padding-bottom: 24px;
 }
 .WorkExperienceRow {
   display: flex;
   flex-direction: row;
   gap: 40px;
-  padding-bottom: 40px;
-}
-.WorkExperienceRow:last-child {
-  padding-bottom: 0px;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
 .WorkExperienceYearColumn {
   width: 96px;
 }
 .WorkExperienceSection {
-  padding-bottom: 80px;
+  padding-bottom: 5rem;
 }
 .SectionHeader {
   font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
-  padding-bottom: 40px;
+  color: rgba(0, 0, 0, 0.5);
 }
 .WorkExperienceYear {
   width: 96px;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
 }
 .WorkTitle {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1rem;
   line-height: 24px;
   letter-spacing: -0.03em;
   width: 100%;
+  padding-bottom: 8px;
 }
 .Location {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
   padding-bottom: 16px;
 }
-@media (max-width: 768px) {
+@media (max-width: 720px) {
   .Container {
     margin: 0px 24px;
   }

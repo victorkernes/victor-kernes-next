@@ -1,51 +1,15 @@
 .Footer {
   width: 100%;
 }
-.FooterContainer {
-  max-width: 920px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-bottom: 5rem;
-  margin: 0 auto;
-}
-.LinksContainer {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 5rem;
-}
-.LinksList {
-  display: flex;
-}
-.LinksList li {
-  font-size: 1rem;
-  padding-right: 40px;
-}
-.LinksList li a {
-  color: var(--nav-color);
-}
-.LinksList li:last-of-type {
-  padding-right: 0;
-}
 .Copyright {
   font-size: 1rem;
-  color: var(--nav-color);
+  color: var(--text);
 }
 @media (max-width: 720px) {
-  .FooterContainer {
+  .Footer {
     width: 100%;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 2rem;
-  }
-  .FooterHeader {
-    font-size: 2rem;
-    padding-bottom: 2rem;
-  }
-  .LinkText {
-    padding-bottom: 1.5rem;
-  }
-  .Copyright {
-    padding-bottom: 16px;
   }
 }

@@ -11,13 +11,9 @@
 @import url("https://rsms.me/inter/inter.css");
 html {
   font-family: "Inter", sans-serif;
+  font-size: 14px;
   text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-}
-@supports (font-variation-settings: normal) {
-  html {
-    font-family: "Inter var", sans-serif;
-  }
 }
 button,
 input,
@@ -26,34 +22,19 @@ select,
 textarea {
   font-family: inherit;
 }
-button {
-  display: inline-block;
-  border: none;
-  padding: 12px 24px;
-  margin: 0;
-  text-decoration: none;
-  background: var(--button-background);
-  color: var(--nav-color);
-  font-weight: 600;
-  font-size: 1rem;
-  border-radius: 40px;
-  cursor: pointer;
-  text-align: center;
-  transition: background 250ms ease-in-out, 
-              transform 150ms ease;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
 body {
-  color: var(--body-foreground);
-  background-color: var(--body-background);
+  color: var(--text);
+  background-color: var(--background);
 }
 a {
+  color: var(--text);
   text-decoration: none;
-  color: var(--link-color);
 }
 a:hover {
-  opacity: 0.7;
+  cursor: pointer;
+}
+svg, img {
+  display: block;
 }
 ul,
 li {
@@ -61,363 +42,41 @@ li {
   text-decoration: none;
 }
 h1 {
-  font-size: 40px;
-  line-height: 1.25;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -0.05rem;
 }
 h4 {
-  font-size: 28px;
-  line-height: 1.25;
+  font-weight: 500;
+  letter-spacing: -0.05rem;
 }
 p {
-  font-size: 1.25rem;
-  line-height: 1.6;
-  letter-spacing: -0.1px;
-  text-rendering: optimizeLegibility;
-}
-.f-headline {
-  font-size: 5rem;
-  line-height: 1.25;
-}
-.f-subheadline {
-  font-size: 4rem;
-  text-align: left;
-}
-.f1 {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-.f2 {
-  font-size: 2.25rem;
-  line-height: 1.5;
-}
-.f3 {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-.f4 {
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-.f5 {
   font-size: 1rem;
+  font-weight: 400;
   line-height: 1.5;
-}
-.f6 {
-  font-size: 0.875rem;
-  line-height: 1.5;
-}
-.bold {
-  font-weight: bold;
 }
 .Container {
-  margin: 2rem 0 0.5rem 0;
-}
-.AboutMeSection {
-  animation: fadein 2s;
-  display: flex;
-  width: 100%;
-  max-width: 600px;
-  flex-direction: column;
-  align-content: flex-start;
-  padding-top: 180px;
-  padding-bottom: 200px;
+  max-width: 560px;
+  padding-top: 160px;
   margin: 0 auto;
-}
-.Welcome {
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
-}
-.Subtitle {
-  color: #737d86;
-  padding-bottom: 8px;
 }
 .Title {
-  padding-bottom: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.03rem;
+  padding-bottom: 40px;
 }
-.Context {
-  color: #72777b;
-  padding-bottom: 16px;
-}
-.LearnMore {
-  padding-bottom: 16px;
-}
-/* .LearnMoreLink {
-  background-image: linear-gradient(gray, gray);
-  background-size: 100% 1px;
-  background-position: left 1.05em;
-  background-repeat: no-repeat;
-} */
-.ContactButtons {
+.Links {
   display: flex;
   flex-direction: row;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
+  gap: 16px;
+  padding-bottom: 40px;
 }
-.HireMeButton {
-  display: block;
-  text-decoration: none;
-}
-.HireMeButton:hover {
-  opacity: 0.8;
-}
-.LearnMore {
-  padding: 0 1rem 0 0;
-}
-.LearnMoreButton {
-  display: block;
-  color: #fff;
-  background: #0A84FF;
-  text-decoration: none;
-}
-.LearnMoreButton:hover {
-  opacity: 0.8;
-}
-.ArticlesHeader {
-  padding-bottom: 4rem;
-}
-.ArticleEntry {
-  width: 100%;
-}
-.ArticleEntryHeader {
-  font-size: 24px;
-}
-.ArticleEntryImage {
-  height: 240px;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 8px;
-}
-.FeaturedContainer {
-  max-width: 920px;
-  margin: 0 auto;
-  padding-top: 180px;
-  padding-bottom: 120px;
-}
-.ArticleSection {
-  background: var(--article-section-background);
-  animation: fadein 2s;
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-.Articles {
-  padding-top: 40px;
-  max-width: 1072px;
-  margin: 0 auto;
-}
-.ArticlesContainer {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-.Article {
-  background: var(--article-background);
-  border-radius: 8px;
-  padding: 16px 24px;
-  margin: 0.5rem;
-  width: 320px;
-}
-.ArticleCategory {
-  font-size: 14px;
-  font-weight: 600;
-  color: #196dfb;
-  display: block;
-  padding-bottom: 16px;
-}
-.ArticleTitle {
-  padding-bottom: 8px;
-}
-.SubscribeForm {
-  display: flex;
-  margin-top: 40px;
-}
-.SubscribeFormContainer {
-  display: flex;
-  margin: 0 auto;
-}
-.SubscribeInput {
-  background: #fff;
-  padding: 16px;
-  border-radius: 8px;
-  border: none;
-  margin-right: 16px;
-  font-size: 16px;
-}
-.SubscribeButton {
-  font-size: 16px;
-  padding: 16px;
-  background: #1384ff;
-}
-.FeaturedContainer h1 {
-  padding-bottom: 32px;
-}
-.FeaturedContainer a {
-  text-decoration: none;
-}
-.Twitter {
-  margin-top: 48px;
-}
-.Follow {
-  margin-bottom: 5rem;
-}
-.Follow,
-.Follow a {
-  cursor: pointer;
-  text-decoration: none;
-}
-.Follow a:hover {
-    opacity: none;
-}
-.Follow .Twitter {
-  height: 48px;
-  width: 48px;
-  transition: all 0.2s ease-in-out;
-}
-.Follow:hover .Twitter {
-  transform: scale(1.4);
-}
-.inline {
-  display: inline-flex;
-  align-items: center;
-}
-.inline:hover {
-  opacity: 1;
-}
-.Follow .TwitterText {
-  visibility: hidden;
-  margin-left: 24px;
-  font-size: 1.25rem;
-  padding: 8px 16px;
-  border-radius: 16px 16px 16px 0;
-  color: var(--tweet-me-color);
-  background-color: var(--tweet-me-background);
-  font-weight: 400;
-  opacity: 0;
-  text-decoration: none;
-  transition: visibility 0s, opacity 0.7s linear;
-}
-.Follow:hover .TwitterText {
-  visibility: visible;
-  opacity: 1;
-}
-.MoreBlogPosts {
-  text-align: center;
-  margin: 1rem;
-}
-@media (max-width: 720px) {
-  .Title {
-    font-size: 1.75rem;
-  }
-  .Subtitle {
-    font-size: 1.25rem;
-  }
-  .AboutMeDescription {
-    font-size: 2.5rem;
-    padding-bottom: 1rem;
-  }
-  .Welcome {
-    max-width: 500px;
-  }
-  .Context {
-    font-size: 1rem;
-    padding-bottom: 2rem;
-  }
-  .AboutMeSection {
-    width: 100%;
-    padding: 8rem 1rem;
-  }
-  .ArticleTitle {
-    font-size: 1.25rem;
-  }
-  .ArticleContainer p {
-    font-size: 1rem;
-  }
-  .Follow {
-    margin-bottom: 2rem;
-  }
-  .FeaturedContainer {
-    width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 2rem;
-  }
-  .FeaturedContainer h2 {
-    font-size: 2rem;
-    padding-bottom: 2rem;
-  }
-  .ArticlesContainer {
-    flex-direction: column;
-  }
-  .Article {
-    width: 100%;
-    margin: 0.5rem 0;
-  }
-  .SubscribeFormContainer {
-    flex-direction: column;
-  }
-  .SubscribeInput {
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 16px;
-  }
-  .SubscribeButton {
-    width: 100%;
-  }
-  .LearnMore {
-    font-size: 1rem;
-  }
-  .MoreBlogPosts {
-    font-size: 1rem;
-  }
-  .ContactButtons {
-    flex-wrap: wrap;
-  }
-  .LearnMore {
-    padding: 0 0 1rem 0;
-  }
-}
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-::selection {
-  background-color: #a5aed5;
+@media (max-width: 768px) {
+
 }
 :root {
-  --nav-color: #1d1f20;
-  --nav-hover-color: rgb(0, 0, 0, 0.7);
-  --nav-background: rgba(29, 31, 32, 0);
-  --button-background:rgba(241, 245, 251, 0.5);
-  --button-hover-background: rgba(241, 245, 251, 1);
-  --body-foreground: #0f0f0f;
-  --body-background: #fff;
-  --article-background: #fff;
-  --article-section-background: #f1f5fb;
-  --link-color: #0f0f0f;
-  --tweet-me-color: #0f0f0f;
-  --tweet-me-background: rgba(0, 0, 0, 0.025);
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --nav-color: #fff;
-    --nav-hover-color: rgb(255, 255, 255, 0.7);
-    --nav-background: rgba(15, 15, 15, 0.8);
-    --button-background: rgba(255, 255, 255, 0.05);
-    --button-hover-background: rgba(255, 255, 255, 0.5);
-    --body-foreground: #fff;
-    --body-background: #0f0f0f;
-    --article-background: #17191c;
-    --article-section-background: #1f2226;
-    --link-color: #fff;
-    --tweet-me-color: #fff;
-    --tweet-me-background: rgba(255, 255, 255, 0.025);
-  }
+  --text: #000;
+  --background: #fff;
 }
