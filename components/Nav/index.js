@@ -1,4 +1,5 @@
 import styles from "./Nav.module.css";
+import Image from 'next/image';
 
 const Nav = () => (
   <nav className={styles.Nav}>
@@ -41,9 +42,7 @@ const Nav = () => (
     </ul>
     <div className={styles.Avatar}>
       <a href="/about" alt="Home">
-          <img
-            className={styles.Avatar} src="/static/victor-kernes.png"
-          />
+          <Image src="/static/victorkernes.webp" width="32px" height="32px" className={styles.Avatar}/>
         </a>
     </div>
   </nav>

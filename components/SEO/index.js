@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function SEO() {
   return (
-    <React.Fragment>
+    <>
       <Head>
         <script>
           var clicky_site_ids = clicky_site_ids || [];
@@ -33,6 +33,6 @@ export default function SEO() {
         ></link>
         <title>Victor Kernes</title>
       </Head>
-    </React.Fragment>
+    </>
   );
 }
