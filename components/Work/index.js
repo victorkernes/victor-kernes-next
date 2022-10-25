@@ -12,7 +12,7 @@ const Work = () => (
           <p className={styles.AboutJob}>San Francisco, California</p>
         </div>
         <p className={styles.AboutParagraph}>
-          I‘m <i>obsessed</i> with the future. I’m most interested in menswear, design, and technology. I’ve been a designer since 2017. I currently design full-time at Hodinkee. I’m also a design mentor part-time at Dribbble.
+          I’m <i>obsessed</i> with the future. I’m most interested in menswear, design, and technology. I’ve been a designer since 2017. I currently design full-time at Hodinkee. I’m also a design mentor part-time at Dribbble.
         </p>
       </div>
       <div className={styles.WorkExperienceSection}>
