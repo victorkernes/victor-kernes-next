@@ -42,7 +42,7 @@ const Nav = () => (
     </ul>
     <div className={styles.Avatar}>
       <a href="/about" alt="Home">
-          <Image src="/static/victorkernes.webp" width="32px" height="32px" className={styles.Avatar}/>
+          <Image src="/static/victorkernes.webp" width="32" height="32" className={styles.Avatar}/>
         </a>
     </div>
   </nav>
