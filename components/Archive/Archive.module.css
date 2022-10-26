@@ -8,6 +8,10 @@
 .AboutParagraph {
   padding-bottom: 1rem;
 }
+.AboutParagraphSection {
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
 .ArticleTitle {
   padding-bottom: 1.5rem;
 }
