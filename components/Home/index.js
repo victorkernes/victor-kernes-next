@@ -1,6 +1,7 @@
-import styles from "./Work.module.css";
+import styles from "./Home.module.css";
+import Footer from "../Footer"
 
-const Work = () => (
+const Home = () => (
   <section className={styles.Container}>
     <div className={styles.WorkExperienceSection}>
       <div className={styles.About}>
@@ -8,11 +9,9 @@ const Work = () => (
           <a href="/" alt="Home">
             <h1 className={styles.AboutTitle}>Victor Kernes</h1>
           </a>
-          <p className={styles.AboutJob}>Designer & Writer</p>
-          <p className={styles.AboutJob}>San Francisco, California</p>
         </div>
         <p className={styles.AboutParagraph}>
-          I’m <i>obsessed</i> with the future. I’m most interested in menswear, design, and technology. I’ve been a designer since 2017. I currently design full-time at Hodinkee. I’m also a design mentor part-time at Dribbble.
+          I’m a product designer and writer, based in San Francisco, currently working at <a href="https://www.hodinkee.com" target="_blank">Hodinkee</a>. I’m <i>obsessed</i> with the future. I’m most interested in menswear, design, and technology.
         </p>
       </div>
       <div className={styles.WorkExperienceSection}>
@@ -197,6 +196,7 @@ const Work = () => (
           </div>
       </div>
     </div>
+    <Footer />
   </section>
 );
-export default Work;
+export default Home;

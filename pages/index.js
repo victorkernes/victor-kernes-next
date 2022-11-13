@@ -1,8 +1,8 @@
 import Page from "../components/Page";
-import Work from "../components/Work";
+import Home from "../components/Home";
 
 export default () => (
   <Page>
-    <Work />
+    <Home />
   </Page>
 );

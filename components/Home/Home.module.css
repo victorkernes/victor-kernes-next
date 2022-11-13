@@ -1,6 +1,9 @@
 .Container {
-  max-width: 560px;
+  display: flex;
+  flex-direction: column;
+  max-width: 640px;
   padding-top: 160px;
+  padding-bottom: 160px;
   margin: 0 auto;
 }
 .About {
@@ -12,7 +15,7 @@
   line-height: 24px;
 }
 .AboutJob {
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 20px;
 }
@@ -43,15 +46,13 @@
   padding-bottom: 80px;
 }
 .SectionHeader {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.05rem;
   padding-bottom: 40px;
 }
 .WorkExperienceYear {
   width: 96px;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
 }
@@ -63,7 +64,7 @@
 }
 .Location {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   padding-bottom: 16px;
 }
