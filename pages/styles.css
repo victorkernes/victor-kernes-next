@@ -28,10 +28,18 @@ body {
 a {
   color: var(--text);
   text-decoration: none;
+  border-bottom: 1px solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  padding-bottom: 2px;
+  transition: border-color 150ms ease-in-out;
 }
 a:hover {
   cursor: pointer;
+  border-bottom: 1.5px solid;
+  border-color: rgba(0, 0, 0, .75);
 }
+
+
 svg, img {
   display: block;
 }
@@ -68,6 +76,10 @@ p {
   flex-direction: row;
   gap: 16px;
   padding-bottom: 40px;
+}
+::selection {
+  color: var(--text);
+  background: rgba(255, 204, 0, 0.5);
 }
 @media (max-width: 768px) {
 
