@@ -1,0 +1,16 @@
+.container {
+  margin: 2.5rem 5rem;
+}
+.main {
+  max-width: 36rem;
+  padding-top: 160px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.backToHome {
+  margin: 3rem 0 0;
+}

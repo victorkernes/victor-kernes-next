@@ -1,4 +1,4 @@
-import styles from "./Home.module.css";
+import styles from "./HomeContent.module.css";
 import Footer from "../Footer"
 
 const Home = () => (

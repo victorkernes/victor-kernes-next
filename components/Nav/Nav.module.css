@@ -1,14 +1,16 @@
 .Nav {
+  width: 100%;
   height: 100%;
   display: flex;
   justify-content: space-between;
-}
-.NavItemGroup {
-  display: flex;
-  gap: 16px;
+  align-items: center;
+  padding-bottom: 2.5rem;
 }
 .NavItem {
-  cursor: pointer;
+  font-size: 0.75rem;
+  color: var(--text);
+  font-weight: 600;
+  text-transform: uppercase;
 }
 @media (max-width: 768px) {
   .Nav {
