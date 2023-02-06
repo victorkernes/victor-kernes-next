@@ -9,8 +9,16 @@
 .NavItem {
   font-size: 0.75rem;
   color: var(--text);
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
+  margin: 0 0 1.25rem;
+}
+.NavItemGroup {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 40px;
 }
 @media (max-width: 768px) {
   .Nav {
