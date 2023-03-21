@@ -10,4 +10,4 @@
 
 Each time you get a new computer, remember to generate a new `Personal Access Token` to push changes to GitHub.
 
-Copyright © 2017-2022 Victor Kernes
+Copyright © 2017-2023 Victor Kernes
