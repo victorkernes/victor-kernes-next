@@ -1,46 +1,49 @@
 import Link from 'next/link';
-import Layout, { siteTitle } from '../components/Layout';
+import Layout from '../components/Layout';
 import utilStyles from '../styles/utils.module.css';
 import Date from '../components/Date';
-import { getSortedPostsData } from '../lib/posts';
+import { getSortedPostsData, getPostData } from '../lib/posts';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
+  const latestPostData = allPostsData[0]; // latest post will be the first item in the array
+  const latestPostContent = await getPostData(latestPostData.id);
   return {
     props: {
       allPostsData,
+      latestPostData: {
+        ...latestPostData,
+        contentHtml: latestPostContent.contentHtml,
+      },
     },
   };
 }
 
-// How to just get the latest post for the latest entry?
-
-export default function Home({ allPostsData }) {
+export default function Home({ allPostsData, latestPostData }) {
   return (
     <Layout home>
-      <main>
-        <h1 className={`${utilStyles.headingLg}`}><a>Title of My Latest Post</a></h1>
-        <p>Trying to see how my site reacts if I add in content here. How would it work if my post had multiple paragraphs. Could I create an API to render the content here?</p>
-        <p>Trying to see how my site reacts if I add in content here. How would it work if my post had multiple paragraphs. Could I create an API to render the content here?</p>
-        <p>Trying to see how my site reacts if I add in content here. How would it work if my post had multiple paragraphs. Could I create an API to render the content here?</p>
-        <p>Trying to see how my site reacts if I add in content here. How would it work if my post had multiple paragraphs. Could I create an API to render the content here?</p>
-        <p>Trying to see how my site reacts if I add in content here. How would it work if my post had multiple paragraphs. Could I create an API to render the content here?</p>
-        <p>Trying to see how my site reacts if I add in content here. How would it work if my post had multiple paragraphs. Could I create an API to render the content here?</p>
-      </main>
-      <section className={`${utilStyles.headingSm} ${utilStyles.padding40px}`}>
-        <h3>More Writing</h3>
+      <section className={utilStyles.listItem}>
+        <h1>
+          <Link href={`/posts/${latestPostData.id}`}>
+            {latestPostData.title}
+          </Link>
+        </h1>
+        <div dangerouslySetInnerHTML={{ __html: latestPostData.contentHtml }} />
+      </section>
+      <section>
+        <h2>Thoughts</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>{title}</Link>
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-        <a>More</a>
-      </section>
-    </Layout>
-  );
+            <li className={utilStyles.moreThoughts} key={id}>
+            <Link href={`/posts/${id}`}>{title}</Link>
+            <small className={utilStyles.dateText}>
+              <Date dateString={date} />
+            </small>
+          </li>
+        ))}
+      </ul>
+      <Link href="/archive" className={utilStyles.viewAllThoughts}>More</Link>
+    </section>
+  </Layout>
+);
 }

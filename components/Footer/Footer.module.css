@@ -1,18 +1,29 @@
 .Footer {
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  padding: 0.75rem 2rem;
+  border-top: 1px solid var(--black);
 }
-.Copyright {
-  font-size: 1rem;
-  color: var(--text);
+.FooterItemGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
 }
-@media (max-width: 720px) {
+.FooterItem {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025rem;
+  color: var(--black);
+}
+.FooterItem::before {
+  content: none;
+}
+@media (max-width: 768px) {
   .Footer {
     width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 2rem;
+    padding: 1rem;
   }
 }

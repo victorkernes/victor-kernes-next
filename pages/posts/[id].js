@@ -29,9 +29,11 @@ export default function Post({ postData }) {
           <title>{postData.title}</title>
         </Head>
         <article>
-          <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-          <Date dateString={postData.date} />
+          <h1>{postData.title}</h1>
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+          <small className={utilStyles.dateText}>
+            <Date dateString={postData.date} />
+          </small>
         </article>
       </Layout>
     );
