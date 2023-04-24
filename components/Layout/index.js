@@ -1,4 +1,4 @@
-import styles from './Layout.module.css';
+import styles from "./Layout.module.css";
 import SEO from '../SEO';
 
 export default function Layout({ children }) {
