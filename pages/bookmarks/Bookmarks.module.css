@@ -1,8 +1,8 @@
 .PageTitle {
-  font-size: 12px;
-  font-weight: 400;
+  font-size: 0.75rem;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.025rem;
   padding-bottom: 80px;
 }
 .AboutParagraph {
@@ -26,13 +26,13 @@
 }
 .SectionHeader {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 600;
   color: rgba(0, 0, 0, 0.5);
 }
 .WorkExperienceYear {
   width: 96px;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -43,13 +43,13 @@
   width: 100%;
 }
 .Location {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1rem;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.5);
   padding-bottom: 16px;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .Container {
     margin: 0px 24px;
   }

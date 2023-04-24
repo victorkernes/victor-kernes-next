@@ -1,0 +1,93 @@
+.article {
+  display: flex;
+  gap: 1.5rem;
+}
+.article aside {
+  flex-grow: 1;
+  max-width: 20rem;
+}
+.article .Content {
+  flex-grow: 2;
+}
+.headingGroupTitle {
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+.listItem {
+  padding-bottom: 4rem;
+  margin-bottom: 5rem;
+  border-bottom: 1px solid var(--black);
+}
+.listItem::before {
+  content: none;
+  margin-left: 0; 
+}
+.listItem:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+.author {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+}
+.Content {
+  max-width: 32.25rem;
+}
+.moreThoughts {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+}
+.dateSeparator {
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.025rem;
+  margin: 5rem 0;
+}
+.dateSeparator:first-of-type{
+  margin-top: 0;
+}
+.dateText {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--black);
+  margin-bottom: 2.5rem;
+  display: block;
+}
+.viewAllThoughts {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+  margin-top: 5rem;
+}
+.archiveListItem {
+  margin-bottom: 5rem;
+}
+.archiveListItem:last-child {
+  margin-bottom: 0;
+}
+.archiveListItem::before {
+  content: none;
+  margin-left: 0;
+}
+@media (max-width: 786px) {
+  .moreThoughts {
+    margin-top: 2.5rem;
+  }
+  .article {
+    flex-direction: column;
+  }
+  .article aside {
+    max-width: 100%;
+  }
+}

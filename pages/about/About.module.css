@@ -1,0 +1,84 @@
+.AboutIntro {
+  line-height: 1.75rem;
+}  
+.AboutJob {
+  font-size: .75rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+.JobDescription {
+  margin-bottom: 0;
+}
+.ContactRow {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+.WorkExperienceRow {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  padding-bottom: 40px;
+}
+.WorkExperienceRow:last-child {
+  padding-bottom: 0px;
+}
+.WorkExperienceYearColumn {
+  width: 6rem;
+}
+.WorkExperienceSection {
+  padding-bottom: 5rem;
+}
+.WorkExperienceSection:last-child {
+  padding-bottom: 0;
+}
+.SectionHeader {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025rem;
+}
+.WorkExperienceYear {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025rem;
+  line-height: 1.5rem;
+  width: 6rem;
+}
+.WorkTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.Location {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+  letter-spacing: 0.025rem;
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 768px) {
+  .Container {
+    margin: 0 1.5rem;
+  }
+  .WorkExperienceRow {
+    flex-direction: column;
+    gap: 0px;
+    padding-bottom: 2.5rem;
+  }
+  .ProjectHeader {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+  .ProjectsSection {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .ProjectItemDetails {
+    padding: 20px 25px;
+  }
+}
