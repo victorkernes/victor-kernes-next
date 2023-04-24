@@ -4,13 +4,13 @@ date: '2023-01-28'
 description: Bringing focus to my life through the practice of digital minimalism and stoicism. 
 ---
 
-We’ve all been there. Picking up our phones one hundred times a day. Looking at thousands of different push notifications. Staring for hours upon hours. We’ve all changed.
+We’ve all been there. Picking up our phones a hundred times a day. Looking at thousands of push notifications. Staring for hours upon hours. We’ve all changed.
 
 We’re living in the smartphone era. Whether you were around before or after the release of the original iPhone, your habits have evolved because of the device in your pocket.
 
 And that’s okay. But okay wasn’t enough for me.
 
-I discovered How to Break Up With Your Phone, by Catherine Price, in the fall of last year. The yellow cover and title drew me in. At the time, I was already starting down the path of figuring out how to cure my smartphone addiction.
+I discovered “[How to Break Up With Your Phone](https://www.amazon.com/How-Break-Up-Your-Phone/dp/039958112X/),” by Catherine Price, in the fall of last year. The yellow cover and title drew me in. At the time, I was already starting down the path of [figuring out how to cure my smartphone addiction](https://grntco.medium.com/turn-your-iphone-into-the-light-phone-23964a325f70).
 
 It’s not like I wasn’t able to focus back then. At least, I thought so.
 
@@ -40,8 +40,6 @@ There was nothing pulling me away from what I was doing, whether I was working, 
 
 The two reasons why I think my focus has stuck:
 
-I gave up the biggest distraction in my life. My phone.
-I discovered how much extra time I had during the day.
-The hardest part of this experience was figuring out how to spend my extra time now that I wasn’t glued to my phone.
+I gave up the biggest distraction in my life. My phone. I discovered how much extra time I had during the day.The hardest part of this experience was figuring out how to spend my extra time now that I wasn’t glued to my phone.
 
-Next week, I’ll dive into what all of the articles, books, and people that advocate for breaking up with your phone get wrong about how you should spend your free time.
+I dove into what all of the articles, books, and people that advocate for breaking up with your phone get wrong about how you should spend your free time [here](https://presentable.substack.com/p/presentable-5-pursuing-happiness).
