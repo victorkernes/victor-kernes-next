@@ -4,21 +4,11 @@ date: '2023-01-28'
 description: Bringing focus to my life through the practice of digital minimalism and stoicism. 
 ---
 
-We’ve all been there.
-
-Picking up our phones one hundred times a day.
-
-Looking at thousands of different push notifications.
-
-Staring for hours upon hours.
-
-We’ve all changed.
+We’ve all been there. Picking up our phones one hundred times a day. Looking at thousands of different push notifications. Staring for hours upon hours. We’ve all changed.
 
 We’re living in the smartphone era. Whether you were around before or after the release of the original iPhone, your habits have evolved because of the device in your pocket.
 
-And that’s okay.
-
-But okay wasn’t enough for me.
+And that’s okay. But okay wasn’t enough for me.
 
 I discovered How to Break Up With Your Phone, by Catherine Price, in the fall of last year. The yellow cover and title drew me in. At the time, I was already starting down the path of figuring out how to cure my smartphone addiction.
 
@@ -46,9 +36,7 @@ Admittedly, the color experience didn’t last more than a week or two, but the 
 
 For the first time, in a long time, I didn’t feel distracted.
 
-There was nothing pulling me away from what I was doing, whether I was working, reading, writing, or spending time with my loved ones.
-
-I felt, and still feel, as if I’m able to focus way more.
+There was nothing pulling me away from what I was doing, whether I was working, reading, writing, or spending time with my loved ones. I felt, and still feel, as if I’m able to focus way more.
 
 The two reasons why I think my focus has stuck:
 

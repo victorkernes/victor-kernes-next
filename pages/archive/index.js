@@ -36,25 +36,26 @@ export default function Archive({ postsByYearAndMonth }) {
     <Layout>
       {Object.keys(postsByYearAndMonth).map(yearAndMonth => (
         <div className={utilStyles.listItem} key={yearAndMonth}>
-          <h4 className={utilStyles.dateSeparator}>{format(parseISO(yearAndMonth), 'MMM yyyy')}</h4>
+          <h4 className={utilStyles.dateSeparator}>{format(parseISO(yearAndMonth), 'MMMM yyyy')}</h4>
           <ul className={utilStyles.list}>
             {postsByYearAndMonth[yearAndMonth].map(({ id, date, title, description, contentHtml }) => (
               <li className={utilStyles.archiveListItem} key={id}>
                 <div className={utilStyles.headingGroup}>
-                  <h2 className={`${utilStyles.headingGroupTitle}`}>
+                  <h1 className={`${utilStyles.headingGroupTitle}`}>
                     <Link href={`/posts/${id}`}>{title}</Link>
-                  </h2>
+                  </h1>
                 </div>
                 <p>{description}</p>
-                {/* <div dangerouslySetInnerHTML={{ __html: contentHtml }} /> */}
+                  <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
                 <small className={utilStyles.dateText}>
-                  Posted on <Date dateString={date} />
+                  <Date dateString={date} />
                 </small>
               </li>
             ))}
           </ul>
         </div>
       ))}
+      <Link href="/" className={utilStyles.moreThoughts}>Back Home</Link>
     </Layout>
   );
 }

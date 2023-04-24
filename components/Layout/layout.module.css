@@ -2,23 +2,13 @@
   width: 100%;
 }
 .main {
-  max-width: 32rem;
+  max-width: 50rem;
   padding: 10rem 0;
   margin: 0 auto;
 } 
-.BackToThoughts {
-  display: block;
-  font-size: 0.75rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-top: 10rem;
-}
 @media (max-width: 768px) {
   .main {
     width: 100%;
     padding: 5rem 1rem;
-  }
-  .BackToThoughts {
-    margin-top: 5rem;
   }
 }

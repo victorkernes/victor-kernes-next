@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import Layout from '../components/Layout';
 import utilStyles from '../styles/utils.module.css';
-import Date from '../components/Date';
 import { getSortedPostsData, getPostData } from '../lib/posts';
+import Date from '../components/Date';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -19,31 +19,26 @@ export async function getStaticProps() {
   };
 }
 
-export default function Home({ allPostsData, latestPostData }) {
+export default function Home({ latestPostData }) {
+  const postData = latestPostData;
   return (
     <Layout home>
-      <section className={utilStyles.listItem}>
-        <h1>
-          <Link href={`/posts/${latestPostData.id}`}>
-            {latestPostData.title}
-          </Link>
-        </h1>
-        <div dangerouslySetInnerHTML={{ __html: latestPostData.contentHtml }} />
+      <section className={utilStyles.article}>
+        <aside>
+          <h1>
+            <Link href={`/posts/${latestPostData.id}`}>
+              {latestPostData.title}
+            </Link>
+          </h1>
+          <small className={utilStyles.dateText}>
+            <Date dateString={postData.date} />
+          </small>
+        </aside>
+        <div className={utilStyles.Content}>
+          <div dangerouslySetInnerHTML={{ __html: latestPostData.contentHtml }} />
+          <Link href="/archive" className={utilStyles.moreThoughts}>More Thoughts</Link>
+        </div>        
       </section>
-      <section>
-        <h2>Thoughts</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.moreThoughts} key={id}>
-            <Link href={`/posts/${id}`}>{title}</Link>
-            <small className={utilStyles.dateText}>
-              <Date dateString={date} />
-            </small>
-          </li>
-        ))}
-      </ul>
-      <Link href="/archive" className={utilStyles.viewAllThoughts}>More</Link>
-    </section>
-  </Layout>
-);
+    </Layout>
+  );
 }
