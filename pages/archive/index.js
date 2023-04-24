@@ -44,12 +44,12 @@ export default function Archive({ postsByYearAndMonth }) {
                   <h1 className={`${utilStyles.headingGroupTitle}`}>
                     <Link href={`/posts/${id}`}>{title}</Link>
                   </h1>
+                  <small className={utilStyles.dateText}>
+                    <Date dateString={date} />
+                  </small>
                 </div>
                 <p>{description}</p>
                   <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
-                <small className={utilStyles.dateText}>
-                  <Date dateString={date} />
-                </small>
               </li>
             ))}
           </ul>

@@ -30,7 +30,7 @@ I read the most amount of books ever in my life last year. I also bought a lot m
 
 I mostly read science fiction, but the most impactful were the books on Stoicism and focus.
 
-**Here’s what I read:**
+**Here’s everything I read:**
 
 - Dune, Dune Messiah, & Children of Dune (Frank Herbert)
 - Ready Player Two (Ernest Cline)
@@ -63,6 +63,6 @@ Halfway through 2022, I celebrated one year working at Hodinkee. It’s crazy to
 
 ### Upcoming
 
-This year you can expect to see more from me. More pictures, outfits, thoughts on style, places to visit, and overall, more inspiration. I want this newsletter to be a place where you and I both become inspired.
+This year you can expect to see more from me. More pictures, outfits, thoughts on style, places to visit, and overall, more inspiration. I want this to be a place where you and I both become inspired.
 
 Here’s to another great year ahead of us.
