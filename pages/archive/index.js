@@ -44,7 +44,7 @@ export default function Archive({ postsByYearAndMonth }) {
                   <h1>
                     <Link href={`/posts/${id}`}>{title}</Link>
                   </h1>
-                  <p>{description}</p>
+                  <p className={utilStyles.description}>{description}</p>
                   <small className={utilStyles.dateText}>
                     <Date dateString={date} />
                   </small>

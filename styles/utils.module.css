@@ -88,6 +88,9 @@
   content: none;
   margin-left: 0;
 }
+.description {
+  font-style: italic;
+}
 @media (max-width: 786px) {
   .moreThoughts {
     margin-top: 2.5rem;
