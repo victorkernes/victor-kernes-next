@@ -9,15 +9,24 @@
 .article .Content {
   flex-grow: 2;
 }
-.headingGroupTitle {
-  font-weight: 600;
-  line-height: 1.2;
-  margin-bottom: 1rem;
+.archiveArticle {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 10rem;
+}
+.archiveArticle::before {
+  content: none;
+  margin-right: 0;
+}
+.archiveArticle aside {
+  flex-grow: 1;
+  max-width: 20rem;
+}
+.archiveArticle div .Content {
+  flex-grow: 2;
 }
 .listItem {
-  padding-bottom: 4rem;
-  margin-bottom: 5rem;
-  border-bottom: 1px solid var(--black);
+  border-bottom: 0.5px solid var(--black);
 }
 .listItem::before {
   content: none;
@@ -88,5 +97,11 @@
   }
   .article aside {
     max-width: 100%;
+  }
+  .archiveArticle aside {
+    max-width: 100%;
+  }
+  .archiveArticle {
+    flex-direction: column;
   }
 }

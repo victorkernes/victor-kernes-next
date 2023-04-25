@@ -39,17 +39,19 @@ export default function Archive({ postsByYearAndMonth }) {
           <h4 className={utilStyles.dateSeparator}>{format(parseISO(yearAndMonth), 'MMMM yyyy')}</h4>
           <ul className={utilStyles.list}>
             {postsByYearAndMonth[yearAndMonth].map(({ id, date, title, description, contentHtml }) => (
-              <li className={utilStyles.archiveListItem} key={id}>
-                <div className={utilStyles.headingGroup}>
-                  <h1 className={`${utilStyles.headingGroupTitle}`}>
+              <li className={utilStyles.archiveArticle} key={id}>
+                <aside>
+                  <h1>
                     <Link href={`/posts/${id}`}>{title}</Link>
                   </h1>
+                  <p>{description}</p>
                   <small className={utilStyles.dateText}>
                     <Date dateString={date} />
                   </small>
-                </div>
-                <p>{description}</p>
+                </aside>
+                <div className={utilStyles.Content}>
                   <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
+                </div>
               </li>
             ))}
           </ul>
