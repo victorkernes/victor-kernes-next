@@ -52,7 +52,9 @@
   font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: 0.025rem;
   margin-top: 2.5rem;
+  margin-bottom: 5rem;
 }
 .dateSeparator {
   font-size: .75rem;
@@ -90,6 +92,9 @@
 }
 .description {
   font-style: italic;
+}
+.block {
+  display: block;
 }
 @media (max-width: 786px) {
   .moreThoughts {

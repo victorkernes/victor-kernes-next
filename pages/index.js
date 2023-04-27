@@ -3,6 +3,7 @@ import Layout from '../components/Layout';
 import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData, getPostData } from '../lib/posts';
 import Date from '../components/Date';
+import Subscribe from '../components/Subscribe';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -37,7 +38,8 @@ export default function Home({ latestPostData }) {
         <div className={utilStyles.Content}>
           <div dangerouslySetInnerHTML={{ __html: latestPostData.contentHtml }} />
           <Link href="/archive" className={utilStyles.moreThoughts}>More Thoughts</Link>
-        </div>        
+          <Subscribe/>
+        </div> 
       </section>
     </Layout>
   );
