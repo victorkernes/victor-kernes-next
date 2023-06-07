@@ -58,6 +58,7 @@ It’s a computer.
 ## Naming Conventions
 
 **Hardware**
+
 I wasn’t sure _what_ they were going to call this new device.
 
 But “Vision Pro” seems odd, and it feels even more off when compared to the other devices in Apple’s lineup.
@@ -71,11 +72,13 @@ I’m guessing the non-pro version will be called “Vision + something else” 
 Maybe we’ll see a “Vision Air” or ”Vision Max” in the future.
 
 **Software**
+
 I was sure they were going to call the new software “realityOS,” but I was wrong.
 
 Naming it “visionOS” makes sense, only because it ties into the device’s name.
 
 **Chip**
+
 What seems weird to me is the naming of the chip as “R1,” which makes me think “realityOS” was still in play but someone forgot to tell the chip department.
 
 Wouldn’t it have made more sense to call it the “V1” chip? It’s more catchy, and it’s the first version of this chip, which I’m sure people would point out (v1, get it?), but c’mon, it was right there for the taking.
