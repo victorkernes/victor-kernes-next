@@ -8,7 +8,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@import url('general-sans.css');
+
 @import url("https://rsms.me/inter/inter.css");
+
 html {
   font-family: "Inter", sans-serif;
   text-size-adjust: 100%;
@@ -45,10 +49,9 @@ h3 {
   letter-spacing: 0.025rem;
   margin-bottom: 1rem;
 }
-p {
+p { 
   font-size: 1rem;
   line-height: 1.5rem;
-  font-weight: 400;
   margin-bottom: 1rem;
 } 
 a {
